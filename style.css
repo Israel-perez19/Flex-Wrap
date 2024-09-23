@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background: black;
+    
+}
+.container{
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+
+
+.uno{
+    background: rgb(235, 71, 71);
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+.dos{
+    height: 200px;
+    width: 200px;
+    background: rgb(142, 98, 224);
+    border-radius: 15px;
+}
+.tres{
+    height: 200px;
+    width: 200px;
+    background: rgb(103, 156, 236);
+    border-radius: 15px;
+}
